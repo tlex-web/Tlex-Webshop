@@ -7,7 +7,6 @@ class Database {
     private $name = null;
     private $user = null;
     private $pw = null;
-    private $charset = null;
     public $pdo_connection;
 
     public function dbConnection() {
@@ -34,5 +33,3 @@ class Database {
         $this->pw = $config['pw'];
     }
 }
-
-?>

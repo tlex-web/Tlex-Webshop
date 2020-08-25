@@ -18,14 +18,10 @@ class Crud {
 
         $stmt = $this->pdo_connection->prepare("INSERT INTO users (firstname, lastname, email) VALUES (:firstname, :lastname, :email)");
 
-        $handler = $stmt->execute(array(
+        return $stmt->execute(array(
             ':firstname' => $firstname,
             ':lastname' => $lastname,
             ':email' => $email
         ));
-
-        return $handler;
     }
 }
-
-?>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="738284b4-4d2a-41e1-89cf-d444d3ecb518" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/database/CRUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/database/CRUD.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/database/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/database/db_connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/pages/dashboard.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb&#10;sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -33,7 +38,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598391853804</updated>
-      <workItem from="1598391857678" duration="334000" />
+      <workItem from="1598391857678" duration="916000" />
     </task>
     <servers />
   </component>
@@ -45,9 +50,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="287" y="435" key="#SQL_Dialects/0.0.2560.1400/3840.1080.1920.1040@0.0.2560.1400" timestamp="1598391937681" />
-    <state x="873" y="333" width="909" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598392119093">
+    <state x="873" y="333" width="937" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598392776227">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="873" y="333" width="909" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.1080.1920.1040@0.0.2560.1400" timestamp="1598392119093" />
+    <state x="873" y="333" width="937" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.1080.1920.1040@0.0.2560.1400" timestamp="1598392776227" />
   </component>
 </project>
