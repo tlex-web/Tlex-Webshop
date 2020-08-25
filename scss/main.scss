@@ -1,0 +1,14 @@
+@import "abstracts/functions.scss";
+@import "abstracts/mixins.scss";
+@import "abstracts/variables.scss";
+
+@import "base/animations";
+@import "base/base";
+@import "base/utilities";
+
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/welcome";

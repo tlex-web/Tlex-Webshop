@@ -3,7 +3,7 @@
 
 require_once 'private/database/CRUD.php';
 
-// Set required enviroment variables
+// Set required environment variables
 $title = 'Welcome';
 $css_file_path = 'src/css/main.css';
 
