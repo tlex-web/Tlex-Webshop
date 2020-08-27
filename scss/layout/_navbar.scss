@@ -1,0 +1,32 @@
+.nav {
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+	justify-content: flex-end;
+	align-items: center;
+	background: $gradient-dark;
+
+	&-logo {
+		padding: 1rem;
+	}
+	&-links {
+		margin-right: 5rem;
+		ul {
+			display: flex;
+
+			li {
+				list-style-type: none;
+				margin-right: 3rem;
+			}
+		}
+	}
+	&-shopping {
+		display: flex;
+		align-items: center;
+
+		i {
+			margin: 0 2rem;
+			cursor: pointer;
+		}
+	}
+}

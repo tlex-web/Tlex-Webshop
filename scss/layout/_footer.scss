@@ -1,0 +1,15 @@
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 5vh;
+	background: $gradient-dark;
+
+	p {
+		margin-left: 3rem;
+	}
+
+	&-links {
+		margin: 0 2rem;
+	}
+}

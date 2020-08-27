@@ -1,0 +1,9 @@
+$background-color: #e6e6e6;
+
+$primary-color: #ff8000;
+$primary-color-light: lighten($primary-color, 10%);
+$secondary-color: #434343;
+$secondary-color-dark: darken($secondary-color, 10%);
+$gradient-dark: linear-gradient(to right, #000000, #434343);
+
+$content-box: 90vw;

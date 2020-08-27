@@ -1,0 +1,29 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+
+	.input-fields {
+		display: flex;
+		flex-direction: column;
+		padding: 2rem 0;
+
+		.label {
+			font-size: 1.6rem;
+			color: $secondary-color;
+		}
+	}
+}
+
+.input:focus {
+	outline: 1;
+	border-color: $primary-color;
+}
+
+button[type="submit"] {
+	display: block;
+	width: 5rem;
+	padding: 1rem 2rem;
+}
