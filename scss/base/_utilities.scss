@@ -1,10 +1,14 @@
+.container {
+	max-width: $content-box;
+}
+
 .danger {
 	color: #ff471a;
 }
 
 .current {
-	margin-top: 0.5rem;
-	border-bottom: 2px solid $secondary-color;
+	border-bottom: 1px solid;
+	border-color: #fff;
 }
 
 .lead {

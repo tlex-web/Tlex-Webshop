@@ -1,0 +1,34 @@
+section {
+	&-a {
+		display: flex;
+		height: 40vh;
+
+		.introduction {
+			display: grid;
+			grid-template-areas:
+				"image text text"
+				"p1 p2 p3";
+
+			&-image {
+				width: 30%;
+				grid-template: "image";
+			}
+
+			&-text {
+				grid-template: "text";
+			}
+
+			&-picture-1 {
+				grid-template: "p1";
+			}
+
+			&-picture-2 {
+				grid-template: "p2";
+			}
+
+			&-picture-3 {
+				grid-template: "p3";
+			}
+		}
+	}
+}

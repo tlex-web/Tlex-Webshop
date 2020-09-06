@@ -10,6 +10,11 @@
 	}
 
 	&-links {
-		margin: 0 2rem;
+		margin-right: 3rem;
+
+		a i {
+			padding: 1rem;
+			margin-left: 0.5rem;
+		}
 	}
 }

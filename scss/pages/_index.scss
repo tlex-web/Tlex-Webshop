@@ -1,13 +1,11 @@
-.about {
-	&-a {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: 90vh;
-		background: url("../../src/img/main.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
+.landing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 85vh;
+	background: url("../../src/img/main.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }

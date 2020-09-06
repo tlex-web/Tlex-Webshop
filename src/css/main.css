@@ -38,12 +38,15 @@ a {
   text-decoration: none;
   color: #fff; }
 
+.container {
+  max-width: 90vw; }
+
 .danger {
   color: #ff471a; }
 
 .current {
-  margin-top: 0.5rem;
-  border-bottom: 2px solid #434343; }
+  border-bottom: 1px solid;
+  border-color: #fff; }
 
 .lead {
   font-size: 1.4rem;
@@ -139,14 +142,17 @@ button[type="submit"] {
   .footer p {
     margin-left: 3rem; }
   .footer-links {
-    margin: 0 2rem; }
+    margin-right: 3rem; }
+    .footer-links a i {
+      padding: 1rem;
+      margin-left: 0.5rem; }
 
-.about-a {
+.landing {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 85vh;
   background: url("../../src/img/main.jpg");
   background-repeat: no-repeat;
   background-position: center;

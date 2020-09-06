@@ -48,7 +48,7 @@ class Crud {
 
     public function deleteUser($email) {
 
-        $stmt = $this->pdo_connection->prepare("DELETE FROM `users` WHERE `users`.`email` = :email;");
+        $stmt = $this->pdo_connection->prepare("DELETE * FROM `users` WHERE `users`.`email` = :email;");
 
         return $stmt->execute(array(
             ':email' => $email
