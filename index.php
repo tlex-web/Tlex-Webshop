@@ -18,25 +18,19 @@ $current = true;
 $link_logout = 'public/logout.php';
 $user = $_SESSION['user'];
 
-?>
-
-<?php 
-
 include 'private/pages/components/header.php';
-
-?>
-
-<?php
 
 include 'private/pages/components/navbar.php';
 
 ?>
 
 <section class="landing">
-    <h1 class="heading-primary">Tlex Photography-Webshop</h1>
-    <p class="lead">Hello ! I'm pleased to welcome you on my little webshop, where you can find photos from my adventures, informations and much more</p>
+    <h1 class="heading-primary"><span class="typewriter"></span></h1>
+    <p class="lead">Hello ! I'm pleased to welcome you on my little web-shop, where you can find photos from my adventures, information's and much more</p>
     <a class="btn-main move-in-bottom" href="products.php">Have a look</a>
 </section>
+
+<script src="src/js/typewriter.js"></script>
 
 <?php 
 

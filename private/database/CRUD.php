@@ -1,7 +1,7 @@
 
 <?php
 
-require_once 'db_connection.php';
+require_once 'DB.php';
 
 class Crud {
 

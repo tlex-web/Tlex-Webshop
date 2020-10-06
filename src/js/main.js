@@ -12,7 +12,7 @@ const shrinkNav = (scrollPosition, delay) => {
 	}, delay);
 };
 
-window.addEventListener("scroll", (e) => {
+window.addEventListener("scroll", () => {
 	scrollY = window.scrollY;
 
 	shrinkNav(scrollY, 2000);

@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="738284b4-4d2a-41e1-89cf-d444d3ecb518" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/private/pages/products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/database/CRUD.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/database/CRUD.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/database/db_connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/database/db_connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/private/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/env.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,11 +59,23 @@
       <option name="presentableId" value="Default" />
       <updated>1598391853804</updated>
       <workItem from="1598391857678" duration="916000" />
+      <workItem from="1601159287298" duration="385000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="287" y="435" key="#SQL_Dialects" timestamp="1598391937681">
@@ -54,5 +86,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="873" y="333" width="937" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.1080.1920.1040@0.0.2560.1400" timestamp="1598392776227" />
+    <state x="1016" y="574" key="NewPhpFileDialog" timestamp="1601159426464">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1016" y="574" key="NewPhpFileDialog/0.0.2560.1400/3840.1080.1920.1040@0.0.2560.1400" timestamp="1601159426464" />
   </component>
 </project>
